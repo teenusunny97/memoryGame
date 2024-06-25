@@ -1,2 +1,0 @@
-body{align-items:center;background-color:#fae19d;display:flex;justify-content:center}body,html{height:100%}.container{grid-gap:1em;display:grid;gap:1em;grid-template-columns:repeat(3,1fr);height:500px;width:500px}h1{text-align:center}.card{align-items:center;background-color:#fff;border-radius:10px;display:flex;justify-content:center}.card img{height:80%;transform:scale(0);width:80%}.card.active{pointer-events:none}.card.wrong{background-color:#fd245a}.card.active img{transform:scale(1)}.card.correct{background-color:#45d245}
-/*# sourceMappingURL=main.6302e9ae.css.map*/
