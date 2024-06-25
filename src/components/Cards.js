@@ -3,15 +3,15 @@ import Card from "./Card"
 const Cards = () => {
     const [items, setItems] = useState(
         [
-            { id: "1", img: '/images/goa.jpg', stat: "" },
-            { id: "1", img: '/images/goa.jpg', stat: "" },
-            { id: "2", img: '/images/ladakh.jpg', stat: "" },
-            { id: "2", img: '/images/ladakh.jpg', stat: "" },
-            { id: "3", img: '/images/manali.jpg', stat: "" },
-            { id: "3", img: '/images/manali.jpg', stat: "" },
-            { id: "4", img: '/images/coorg.jpg', stat: "" },
-            { id: "4", img: '/images/coorg.jpg', stat: "" },
-            { id: "5", img: '/images/joker.jpg', stat: "active" },
+            { id: "1", img: './images/goa.jpg', stat: "" },
+            { id: "1", img: './images/goa.jpg', stat: "" },
+            { id: "2", img: './images/ladakh.jpg', stat: "" },
+            { id: "2", img: './images/ladakh.jpg', stat: "" },
+            { id: "3", img: './images/manali.jpg', stat: "" },
+            { id: "3", img: './images/manali.jpg', stat: "" },
+            { id: "4", img: './images/coorg.jpg', stat: "" },
+            { id: "4", img: './images/coorg.jpg', stat: "" },
+            { id: "5", img: './images/joker.jpg', stat: "active" },
         ].sort(() => Math.random() - 0.5)
     )
     const [prev, setPrev] = useState("")
